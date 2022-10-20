@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyTrip</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        body{
+            background-image: url("./images/Sign.jpg");
+        }
+        .box{
+            display: inline-block;
+            text-align: center;
+            margin: 30vh 30vw;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: white;
+            border-radius: 20px;
+        }
+        .box h1{
+            color:rgb(238, 74, 14) ;
+        }
+        .box ul li{
+            list-style: none;
+            font-family: 'Oswald', sans-serif;
+            margin-right: 40px;
+        }
+        .use{
+            padding: 0 30px 30px 40px;
+            
+        }
+        .pass{
+            margin-bottom: 40px;
+        }
+        .box button{
+            text-decoration: none;
+            color: white;
+            background-color: rgb(238, 74, 14) ;
+            border-color: white;
+            border-radius: 20px;
+            padding: 10px 10px 5 px 10px;
+            margin-bottom: 40px;
+        }
+        .box a{
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+        }
+        .box button:hover{
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .logo{
+            margin-left: 5px;
+            margin-right: 400px;
+            font-family: 'lobster', cursive;
+            font-size: 40px;
+            color:rgb(238, 74, 14) ;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="logo">
+        BookMyTrip
+    </div>
+    <div class="box">
+        <h1>Sign In</h1>
+        <ul>
+            <div class="use">
+                <li><label for="user">User Name:</label>
+                    <input type="email" name="user" id="user"></li>
+            </div>
+            <div class="pass">
+                <li><label for="password">Password:</label>
+                    <input type="password" name="password" id="password"></li>
+            </div>
+        </ul>
+        <button><a href="./index.html">Sign in</a></button>
+    </div>
+</body>
+</html>

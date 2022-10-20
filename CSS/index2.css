@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+/* title { display: block; font-size: 200%; font-weight: bold; } */
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: aliceblue;
+    z-index: 1;
+}
+.logo{
+    margin-left: 5px;
+    margin-right: 400px;
+    font-family: 'lobster', cursive;
+    font-size: 40px;
+    color:rgb(238, 74, 14) ;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: silver;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+}
+.home a{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(238, 74, 14) ;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(238, 74, 14) ;
+    font-size: 20px;
+}
+.but{
+    background-color:rgb(255, 116, 66);
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+nav ul button a{
+    text-decoration: none;
+    color: white;
+}
+nav ul button:hover{
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.search{
+    contain: content;
+    padding-top: 14%;
+    padding-bottom: 0;
+    height: 66vh;
+    /* background-image: url(/images/index2.jpg); */
+    background-size: 100% 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: class;
+    animation-direction: alternate-reverse;
+    animation-duration:17s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+.thought{
+    text-align: center;
+    font-size: 60px;
+    width: 60%; 
+    margin-left: 20%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    opacity: 80%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.team{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.box{
+    /* background-image: linear-gradient(white,rgb(205, 222, 237)); */
+    contain: content;
+    font-size: 35px;
+    margin: 50px 0px 0px 230px;
+    background-color: white;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+    height: 70px;
+    width: 60%;
+    display: inline-block;
+    border-radius: 3px;
+    opacity: 90%;
+    color: rgb(99, 101, 101);
+    padding: 0px 25px;
+}
+.box span{
+   padding: 30px;
+}
+.box span input{
+    width: 20vh;
+    /* padding: 5px; */
+    border-style: none;
+    border-bottom: 2px solid rgb(225, 105, 105);
+    margin-top: 30px;
+    font-size: 17px;
+}
+.box span label{
+    font-size: 17px;
+    position: absolute;
+    margin-top: 5px;
+    padding-bottom: 30px;
+}
+.text-al{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indian{
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 30px 0px 0px 30px; 
+}
+.container1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    margin: 50px;
+}
+.container1 h2{
+    color: #000;
+    font-size: 19px;
+    font-weight: 800;
+    text-align: center;
+
+    
+}
+.container1 p{
+    color: rgb(133, 146, 146);
+    font-size: small;
+    text-align: center;
+
+}
+.review{
+    display: inline-block;
+    color: red;
+    /* margin-left: 10px; */
+    border: 1px solid chocolate;
+}
+.reviews{
+    margin-left: 20px;
+}
+.checked {
+    color: orange;
+  }
+.ratings{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}  
+.sect{
+    background-color: red;
+    width: 400px;
+    height: 500px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(54, 5, 100);
+    color: white;
+    height:10vh;
+}
+@keyframes class{
+    0%{
+        background-image: url(/images/01.jpg);
+    }
+    20%{
+        background-image: url(/images/02.jpg);
+    }
+    40%{
+        background-image: url(/images/03.jpg);
+    }
+    60%{
+        background-image: url(/images/04.jpg);
+    }
+    80%{
+        background-image: url(/images/05.jpg);
+    }
+    100%{
+        background-image: url(/images/06.jpg);
+    }
+}

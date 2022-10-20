@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+        *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+title { display: block; font-size: 200%; font-weight: bold; }
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    padding: 20px 0 0 20px;
+    font-family: 'Montserrat', sans-serif; 
+}
+nav{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: aliceblue;
+    align-items: center;
+    z-index: 1;
+}
+.logo{
+    margin-left: 5px;
+    margin-right: 400px;
+    font-family: 'lobster', cursive;
+    font-size: 40px;
+    color:rgb(238, 74, 14) ;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: silver;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+}
+.home a{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(238, 74, 14) ;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(238, 74, 14) ;
+    font-size: 20px;
+}
+.but{
+    background-color:rgb(255, 116, 66);
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+nav ul button a{
+    text-decoration: none;
+    color: white;
+}
+nav ul button:hover{
+    font-size: 17px;
+    text-decoration: none;
+}
+.navcopy{
+    width:100%;
+    height: 60px;
+}
+.search{
+    padding: auto;
+    height: 66vh;
+    background-image: url(https://img.lovepik.com/background/20211021/large/lovepik-a-driving-bus-background-image_400149197.jpg);
+    background-size: 100% 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box{
+    /* background-image: linear-gradient(white,rgb(205, 222, 237)); */
+    contain: content;
+    font-size: 35px;
+    margin: 250px 0px 0px 180px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2),4px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 150vh;
+    display: inline-block;
+    border-radius: 3px;
+    color: rgb(99, 101, 101);
+}
+.box span{
+   padding: 40px;
+}
+.box span input{
+    width: 22vh;
+    border-style: none;
+    border-bottom: 2px solid rgb(225, 105, 105);
+    margin-top: 15px;
+    font-size: 15px;
+}
+.box span label{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 5px;
+}
+.heading{
+    position: absolute;
+    font-size: 60px;
+    top: 20%;
+    left: 30%;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
+    margin: 30px auto;
+
+}
+.srtc{
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 30px 30px;
+    
+}
+.srtc h3{
+    padding: 20px 0 0 20px;
+    font-family: 'Montserrat', sans-serif;  
+}
+.srtc img{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.srtc img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Buses{
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 30px 30px;
+    background-color: #e9e7e7;
+}
+.Buses h3{
+    padding: 20px 0 0 20px;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.catalog{
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 35px;
+    padding: 10px;
+    background-color: white;
+
+}
+.Buses .catalog p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.routes{
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 30px 30px;
+    background-color: #e9e7e7;
+}
+.routes ul{
+    display: inline-block;
+    margin: 20px 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #5a5a5a;
+}
+footer{
+    text-align: center;
+    background-color: rgb(54, 5, 100);
+    color: white;
+    height:10vh;
+}
